@@ -1,5 +1,4 @@
-#Smart Campus Navigation System
-
+# Smart Campus Navigation System
 The MS06 Smart Campus Navigation System is designed to help students, staff, and visitors efficiently navigate large and complex campus environments. Traditional navigation methods can be confusing, especially for new users, and standard GPS is unreliable indoors. This creates a need for a system capable of providing accurate, real-time navigation across both indoor and outdoor spaces.
 
 The main objective of this project was to design and develop a user-friendly navigation platform that integrates indoor and outdoor positioning while delivering clear route guidance. The system combines GPS for outdoor tracking with Bluetooth Low Energy (BLE) signals for indoor positioning. BLE beacons deployed throughout buildings enable the system to estimate a user’s location based on signal strength. A mobile application was developed to display interactive maps, support destination search, and guide users along the shortest path. Routing is performed using Dijkstra’s algorithm over a graph-based representation of campus locations.
